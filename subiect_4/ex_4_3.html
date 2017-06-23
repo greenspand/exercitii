@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Subiect 4 exercitiu 3</title>
+</head>
+
+<body>
+  <script type="text/javascript">
+    function showAlertWhenOutOfFocus() {
+      var id = document.getElementById('txtadd');
+      alert(id.value);
+    }
+  </script>
+  <form class="simpleform" action="index.html" method="post">
+    <input id="txtadd" type="text" onfocusout="showAlertWhenOutOfFocus()">
+  </form>
+</body>
+
+</html>

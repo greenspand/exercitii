@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+</head>
+
+<body>
+  <script type="text/javascript">
+    function vanish() {
+      var list = document.getElementById('lista');
+      list.parentNode.removeChild(list);
+    }
+  </script>
+  <ul id="lista">
+    <li onclick="vanish()">Mere</li>
+    <li onclick="vanish()">Pere</li>
+    <li onclick="vanish()">Cartofi</li>
+    <li onclick="vanish()">Cirese</li>
+  </ul>
+</body>
+
+</html>

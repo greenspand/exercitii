@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Subiect 1 Exercitiu 2</title>
+</head>
+
+<body>
+  <script type="text/javascript">
+    function changeTextType() {
+      var id = document.getElementById("continut");
+      if (id.type === "div") {
+        id.type = "span";
+      } else {
+        id.type = "div";
+      }
+    }
+  </script>
+
+  <div id="continut">
+    Vremea astazi e deosebit de frumoasa. Doresc sa merg afara sa stau la
+    <div id="hotword" onclick="changeTextType()">soare</div>
+  </div>
+
+</body>
+
+</html>

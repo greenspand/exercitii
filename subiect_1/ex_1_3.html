@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Subiect 1 Exercitiu 3</title>
+</head>
+
+<body>
+  <script type="text/javascript">
+    function checkIfEmpty() {
+      if (!document.getElementById("valoare").value) {
+        return false;
+      }
+    }
+  </script>
+
+  <form action="ex_3.html" method="post">
+    <input id="valoare" type="text" name="" value="">
+    <input type="submit" onclick="checkIfEmpty()" value="Submit">
+  </form>
+</body>
+</html>
