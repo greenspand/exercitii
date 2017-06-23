@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Subiect 3 Exercitiu 3</title>
+  <style style="text/css">
+    #imagine{
+      width: 600px;
+      height: 400px;
+    }
+  </style>
+</head>
+
+<body>
+  <script type="text/javascript">
+    function changeVisibilityOnClick() {
+      var img = document.getElementById('imagine');
+      if (img.style.visibility !== 'visible') {
+        img.style.visibility = 'visible';
+      } else {
+        img.style.visibility = 'hidden';
+      }
+    }
+  </script>
+  <img id="imagine" src="http://www.petsionary.com/wp-content/uploads/fu/fun-math-dieting-dachshund.jpg">
+  <button onclick="changeVisibilityOnClick()" />Click me</button>
+</body>
+
+</html>
